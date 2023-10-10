@@ -49,6 +49,7 @@ if "selection" not in st.session_state:
 if "selection_index" not in st.session_state:
     st.session_state["selection_index"] = None
 
+if "selection_list" not in st.session_state:
     st.session_state["selection_list"] = []
 
 if "options" not in st.session_state:
